@@ -1,0 +1,13 @@
+Things that needs to happen in-order.
+
+1: Learn qt (just almost enough to get by).
+2: Plan all classes and how they work.
+3: Plan how to release on all platforms (Win, macOS, Linux...).
+    Also we must think about how people will include it.
+    Also there will be issues compiling for i686 or amd64.
+4: set up git so we can work on it.
+    Also need to make sure its works on all IDE's and all OS's
+5: teach everyone cmake and moc.
+6: Make all classes.
+7: Tests all classes.
+8: Release library.
