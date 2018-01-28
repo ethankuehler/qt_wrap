@@ -1,12 +1,14 @@
 
-#include <iostream>
+#include <QtWidgets/QApplication>
 #include "qt_wrap.h"
 
-int main() {
-    std::puts("testing 1, 2, 3...");
+int main(int argc, char *argv[]) {
 
-    auto f = qtw::Window();
+    QApplication app(argc, argv);
 
+    qtw::Window window;
 
-    return 0;
+    window.show();
+
+    return app.exec();
 }
